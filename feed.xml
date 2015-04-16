@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2015-04-16T11:37:00-07:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>2015 MadburyClub.com Redesign</title>
+    <link rel="alternate" href="http://blog.url.com/tmc-redesign/"/>
+    <id>http://blog.url.com/tmc-redesign/</id>
+    <published>2015-04-16T11:37:00-07:00</published>
+    <updated>2015-04-16T12:31:46-07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Since its inception in early 2010, The Madbury Club's digital presence has evolved at the same frenetic pace as its work. It started out as a blog. Then it became a music review site. Then Spreads. Then Editorial pieces.&lt;/p&gt;
+
+&lt;p&gt;In its current iteration, most of the recent content is what you'd see from a Creative Agency, with more of a focus on Client-centric deliveries. I had the opportunity to work with Phillip on the redesign as we migrated from a CMS server-side platform to the Cloud Based, Static Site Generator &lt;a href="http://siteleaf.com"&gt; Siteleaf&lt;/a&gt;. I was able to dig up a large number of archived works TMC had produced in the past and give them new life in a responsive layout. Responsibilities included Web Development, Design, Project Management, Development of Tumblr Theme.&lt;/p&gt;
+
+&lt;p&gt;Visit &lt;a href="http://madburyclub.com"&gt; The Madbury Club &lt;/a&gt; to get the full experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/./browser-source-code.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/./browser-source-code-copy.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="mobile" src="/images/./iPhone6a.jpg" /&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Nike Sportswear Instagram</title>
+    <link rel="alternate" href="http://blog.url.com/nike-sportswear-instagram/"/>
+    <id>http://blog.url.com/nike-sportswear-instagram/</id>
+    <published>2015-04-15T11:23:00-07:00</published>
+    <updated>2015-04-16T12:36:16-07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Since February of 2014, I've been Producer and Account Lead on @nikesportswear Instagram. As part of managing the day to day operations with the brand, I've built relationships across the NSW matrix, helped grow the community from 70k to over 1.4 million followers in less than one year. Other responsibilities, among others, include Location Scouting, Pre Production Scheduling, Composition of Deck presentations and account forecasting. Photos taken by Vincent Picone.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/./rre.jpg" /&gt;
+&lt;img alt="" src="/images/./rre2.jpg" /&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Nike Sportswear 2014 Air Collection</title>
+    <link rel="alternate" href="http://blog.url.com/nike-sportswear-2014-air-collection/"/>
+    <id>http://blog.url.com/nike-sportswear-2014-air-collection/</id>
+    <published>2015-04-15T11:23:00-07:00</published>
+    <updated>2015-04-16T12:34:38-07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Court inspired. Neighborhood approved. The Nike Air Collection takes it back to the blacktop. I was part of a 5 man TMC Crew that produced a short film and series of photos on behalf of The Nike Sportswear Brand Team. For more information, please visit the following &lt;a href="http://madburyclub.com/works/nike-air-collection/"&gt; LINK &lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/104048071?title=0&amp;amp;byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""&gt;&lt;/iframe&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Cosmic Explorations with Chet Brinkwater</title>
+    <link rel="alternate" href="http://blog.url.com/cosmic-explorations-with-chet-brinkwater/"/>
+    <id>http://blog.url.com/cosmic-explorations-with-chet-brinkwater/</id>
+    <published>2015-04-14T10:59:00-07:00</published>
+    <updated>2015-04-15T15:30:03-07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Creative powerhouse The Madbury Club just released a short film, “Cosmic Exploration featuring Takara Bunyon.” This offbeat tale, told in the style of a 1970′s documentary, presents the story of number one reporter Chet Brinkwater as he journeys deep into the desert in search of the mysterious monk Takara Bunyon. Bunyon is said to be an immortal time traveler who has mastered the art of levitation, and that the secret to his powers are the Native Shoes Apollo Mocs that he wears on his feet. Enjoy the quirky film above.&lt;/p&gt;
+
+&lt;p&gt;For the complete story, head over to&lt;a href="http://hypebeast.com/2015/3/native-shoes-presents-cosmic-exploration-featuring-takara-bunyon"&gt; HYPEBEAST&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width="640" height="360" src="https://www.youtube.com/embed/-EEtR3BBw5M?showinfo=0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/./HB-TB.jpg" /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Native Shoes SS15 Native Tongue Catalogue Lookbook</title>
+    <link rel="alternate" href="http://blog.url.com/native-shoes-ss15/"/>
+    <id>http://blog.url.com/native-shoes-ss15/</id>
+    <published>2015-04-14T08:05:00-07:00</published>
+    <updated>2015-04-16T12:37:20-07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;The inaugural issue of Canadian Footwear Company Native Shoes'Native Tongue 0.5. A three part lookbook catalogue series shot in April 2014. The Madbury Club for Native Shoes. The lite has been kept.&lt;/p&gt;
+
+&lt;p&gt;For a sampling of the goods, go &lt;a href="http://madburyclub.com/works/features/native-shoes-native-tongue-issue-i-ss15-campaign/"&gt; HERE &lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/./ss15native.jpg" /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Kilo Kish "Begin Route" Music Video</title>
+    <link rel="alternate" href="http://blog.url.com/kilo-kish-begin-route-music-video/"/>
+    <id>http://blog.url.com/kilo-kish-begin-route-music-video/</id>
+    <published>2014-07-03T22:42:00-07:00</published>
+    <updated>2015-04-16T12:31:06-07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;The video for “Begin Route” aligns neatly with the rest of Across’s dreamy nostalgia. Shot half in low contrast black and white and half in bleached out color, the video emphasizes the lines between past and present, roaming and home, love and loneliness. Kish, meanwhile, sleepily drawls over a languid beat. Kitsuné, who has included Kish on two past compilations and named her their FW 14 ambassador, will put the EP out on vinyl August 25th, and follow up with a travel-themed capsule collaboration with the singer in September. (via The Fader)&lt;/p&gt;
+
+&lt;p&gt;Had the great opportunity to work on this  music video. As Producer, I was responsible for finding filming locations to correlate with the concept of the video. Other responsibilities include Call Sheet composition, Run Of Show, and herding of featured Prop (thanks Nick!).&lt;/p&gt;
+
+&lt;p&gt;Director: Phillip T. Annand //
+Director of Photography: August Thurmer //
+Producer: Peter Hironaka //
+Second Cameraman: Amado Satchenfeld //&lt;/p&gt;
+
+&lt;iframe width="640" height="360" src="https://www.youtube.com/embed/xOSqqwMjYnA?showinfo=0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+</content>
+  </entry>
+</feed>
