@@ -176,108 +176,37 @@ li.next {
 
 /* line 2, ../sass/modules/_header.scss */
 header {
-  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  margin: 2em auto;
   overflow: hidden;
   top: 0;
-  z-index: 10;
-  position: fixed;
-  left: 0;
-  height: 100%;
-  background-color: #E8E8E8; }
+  z-index: 10; }
 
-/* line 14, ../sass/modules/_header.scss */
+/* line 11, ../sass/modules/_header.scss */
 h1 {
   font-size: 1.7em;
   color: black;
   text-align: center; }
 
-/* line 21, ../sass/modules/_header.scss */
-ul.menu {
-  display: block;
-  margin: 0 auto 2em auto;
-  height: 100%;
-  width: 100%;
-  overflow: hidden; }
-  /* line 28, ../sass/modules/_header.scss */
-  ul.menu li {
-    margin: 0;
-    display: block;
-    border-bottom: 1px solid #ccc;
-    padding: 0; }
-    /* line 34, ../sass/modules/_header.scss */
-    ul.menu li a {
-      letter-spacing: 2px;
-      text-decoration: none;
-      padding: 13px;
-      width: 100%;
-      text-align: center;
-      display: block; }
-
-/* line 46, ../sass/modules/_header.scss */
+/* line 18, ../sass/modules/_header.scss */
 ul {
   margin: 0 auto 2em auto;
   height: 100%;
   max-width: 19.875rem;
   overflow: hidden; }
-  /* line 52, ../sass/modules/_header.scss */
+  /* line 24, ../sass/modules/_header.scss */
   ul li {
     display: inline-block;
     margin: 0 2em; }
 
-/* line 60, ../sass/modules/_header.scss */
+/* line 32, ../sass/modules/_header.scss */
 a.logo {
-  max-width: 6.6em;
+  max-width: 7em;
   margin: 0 auto;
   display: block;
-  margin: 0; }
+  margin: 0 auto; }
 
-@media screen and (max-width: 900px) {
-  /* line 74, ../sass/modules/_header.scss */
-  header {
-    margin: 0;
-    overflow: hidden;
-    top: 0;
-    z-index: 10;
-    position: fixed;
-    left: 0;
-    width: 100%;
-    height: none;
-    background-color: #F9F9F9;
-    height: 5em; }
-
-  /* line 87, ../sass/modules/_header.scss */
-  a.logo {
-    width: 4.6em;
-    margin: 0 auto;
-    display: block;
-    margin: 0;
-    float: left;
-    height: 100%; }
-
-  /* line 96, ../sass/modules/_header.scss */
-  ul.menu {
-    display: inline;
-    margin: 0;
-    width: 100%;
-    overflow: hidden; }
-    /* line 102, ../sass/modules/_header.scss */
-    ul.menu li {
-      margin: 0 4em;
-      display: inline-block;
-      /* border: 1px solid #ccc; */
-      padding: 0;
-      text-align: center;
-      height: 100%;
-      vertical-align: middle; }
-      /* line 111, ../sass/modules/_header.scss */
-      ul.menu li a {
-        letter-spacing: 2px;
-        text-decoration: none;
-        padding: 2em 2em 0px;
-        width: 100%;
-        text-align: center;
-        display: block;
-        vertical-align: middle; } }
 /* line 2, ../sass/modules/_footer.scss */
 footer {
   width: 100%; }
