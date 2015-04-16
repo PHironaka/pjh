@@ -1,0 +1,153 @@
+
+@import 'compass';
+@import 'compass/reset';
+@import 'compass/css3';
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+// //////////////////////
+// CONFIG
+// //////////////////////
+
+$total_width: 100%;
+$container_margin: 1%;
+$gutter_width: 2%;
+$max_width: 100%;
+$color_headlines: #b7b7b7;
+$headerFont:700;
+$italicFont:italic;
+$defaultFont:'Merriweather', serif;
+$primaryColor: #333;
+$font-size: 1em;
+$navFont: 1.2em;
+$float-position: left;
+$display: inline-block;
+$size: 100%;
+$break-small: 460px;
+$break-large: 1100px;
+
+
+
+// //////////////////////
+// MODULE STYLES
+// //////////////////////
+
+@import "modules/global-styles";
+@import "modules/header";
+@import "modules/footer";
+
+
+.container {
+@include outer-container;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+	padding: 0px 1.55555em;
+	max-width: 47.875rem;
+	overflow:hidden;
+	
+}
+
+h2 {
+	font-size: 1.3em;
+	font-weight: $headerFont;
+	margin: 2em 0;
+}
+
+h2.article-title {
+	font-size: 2.7rem;
+	font-weight: 700;
+	margin: .4em 0 0em;
+	text-align: center;
+	  line-height: 1.5em;
+}
+
+h2.about-title {
+	font-size: 1.7rem;
+	font-weight: 700;
+	margin: 1.4em 0 0em;
+	text-align: center;
+	  line-height: 2.5em;
+	  border-top:1px solid #ccc;
+	  border-bottom:1px solid #ccc;
+}
+
+
+
+h3 {
+	font-size: 1.1em;
+	font-style:$italicFont;
+	color: #999;
+	text-align: center;
+}
+
+.info {
+border-top: 1px solid #ccc;
+padding-top: 2em;
+padding-bottom: 2em;
+float: left;
+}
+
+span {
+float: left;
+width: 10em;
+}
+
+a {
+text-decoration: none;
+color: #333;
+}
+
+p {
+font-size: $font-size;
+color: #777;
+line-height: 2.2em;
+margin: 1em 0;
+}
+
+img {
+max-width:100%;
+}
+
+figure img {
+	max-width:100%;
+		 animation: fadein 1s;
+	   -moz-animation: fadein 1s; /* Firefox */
+	   -webkit-animation: fadein 1s; /* Safari and Chrome */
+	   -o-animation: fadein 1s; /* Opera */
+		  }
+a:hover {
+		color:#ccc;
+		-moz-transition:all .5s ease-out;
+		-o-transition:all .5s ease-out;
+		-webkit-transition:all .5s ease-out;
+		transition:all .5s ease-out;
+		
+	}
+
+
+.index-nav {
+margin: 0 auto 1em auto;
+	max-width: 100%;
+
+	li.next {
+margin: 0.5em auto;
+text-align: right;
+top: 40%;
+line-height: 2em;
+padding: 1em 0 0;
+
+	}
+	
+	li.previous {
+margin: 0.5em auto;
+text-align: left;
+top: 40%;
+line-height: 2em;
+padding: 1em 0 0;	
+	}
+		
+}
+
+
+	

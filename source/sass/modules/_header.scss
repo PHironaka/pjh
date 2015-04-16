@@ -1,0 +1,37 @@
+
+header{
+	width: $total_width;
+	max-width: $max_width;
+	margin: 2em auto;	
+	overflow: hidden;
+	top: 0;
+	z-index: 10; 
+}
+
+h1 {
+	
+	font-size: 1.7em;
+	color: black;
+	text-align: center;
+}
+
+ul {
+	margin: 0 auto 2em auto;
+	height: 100%;
+	max-width: 19.875rem;
+	overflow: hidden;	
+
+		li {
+		display: inline-block;
+		margin: 0 2em;
+		
+		}
+	
+}
+
+a.logo {
+max-width: 7em;
+margin: 0 auto;
+display: block;
+margin: 0 auto;
+}

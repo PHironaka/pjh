@@ -1,0 +1,45 @@
+---
+pageable: true
+---
+
+<% wrap_layout :layout do %>
+      <article>
+<h2 class="article-title"><%= current_page.title %></h2>   
+
+        <time class="updated" datetime="<%= current_page.date.strftime('%b %e %Y') %>"><%= current_page.date.strftime('%b %e %Y') %></time> 
+      <div class="article-links">
+      <ul class="article-meta">
+      	<% current_page.tags.each do |tag| %>
+        <li><%= link_to tag, tag_path(tag) %> </li>
+        <% end %>  
+      </ul>
+      </div>
+      
+          
+  <div class="content">
+   <%= yield %>
+     </div>
+
+</article>  
+
+<div class="navigation">
+<ul class ="post-nav"> 
+        <% if current_page.next_article %>
+          <li class="prev"> 
+           &#8592; <%= link_to current_page.next_article.title, current_page.next_article %> 
+        
+          </li> 
+        <% end%>
+        
+          <% if current_page.previous_article %>
+                  <li class="next">
+                    <%= link_to current_page.previous_article.title, current_page.previous_article %> &#8594;
+                  </li> 
+                <% end%> 
+        
+        
+      </ul>
+</div>
+
+  <% end %>
+
