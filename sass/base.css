@@ -214,12 +214,13 @@ li.next {
     width: 54em; }
     /* line 175, ../sass/modules/_global-styles.scss */
     .meta li {
-      margin: 0; }
+      margin: 0;
+      display: block; }
       /* line 178, ../sass/modules/_global-styles.scss */
       .meta li a {
-        display: block;
         width: 100%;
-        font-size: .88em; } }
+        font-size: .88em;
+        display: block; } }
 /* line 2, ../sass/modules/_header.scss */
 header {
   width: 100%;
