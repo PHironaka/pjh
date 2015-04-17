@@ -111,12 +111,16 @@ body {
   max-width: 40.875rem;
 }
 /* line 32, ../sass/modules/_global-styles.scss */
+.meta li {
+  margin: 0;
+}
+/* line 35, ../sass/modules/_global-styles.scss */
 .meta a {
   margin: 0 .3em;
   color: palevioletred;
 }
 
-/* line 38, ../sass/modules/_global-styles.scss */
+/* line 41, ../sass/modules/_global-styles.scss */
 time.updated {
   float: left;
   width: 100%;
@@ -124,24 +128,24 @@ time.updated {
   text-align: center;
 }
 
-/* line 45, ../sass/modules/_global-styles.scss */
+/* line 48, ../sass/modules/_global-styles.scss */
 .article-meta {
   width: 43em;
   font-style: italic;
   margin: 2em auto;
   text-align: center;
 }
-/* line 51, ../sass/modules/_global-styles.scss */
+/* line 54, ../sass/modules/_global-styles.scss */
 .article-meta li {
   display: inline-block;
   margin: 0 .3em;
 }
-/* line 55, ../sass/modules/_global-styles.scss */
+/* line 58, ../sass/modules/_global-styles.scss */
 .article-meta li a {
   color: palevioletred;
 }
 
-/* line 63, ../sass/modules/_global-styles.scss */
+/* line 66, ../sass/modules/_global-styles.scss */
 p.about-header {
   float: left;
   display: block;
@@ -150,7 +154,7 @@ p.about-header {
   color: #333;
 }
 
-/* line 71, ../sass/modules/_global-styles.scss */
+/* line 74, ../sass/modules/_global-styles.scss */
 p.about {
   float: left;
   display: block;
@@ -158,46 +162,46 @@ p.about {
   width: 29.909914%;
 }
 
-/* line 78, ../sass/modules/_global-styles.scss */
+/* line 81, ../sass/modules/_global-styles.scss */
 .article-links {
   padding-bottom: 2em;
   border-bottom: 1px solid #ccc;
 }
 
-/* line 83, ../sass/modules/_global-styles.scss */
+/* line 86, ../sass/modules/_global-styles.scss */
 .content {
   margin-top: 4em;
 }
-/* line 86, ../sass/modules/_global-styles.scss */
+/* line 89, ../sass/modules/_global-styles.scss */
 .content a {
   border-bottom: solid 2px #2EBDB2;
   color: #4A4A4A;
 }
 
-/* line 93, ../sass/modules/_global-styles.scss */
+/* line 96, ../sass/modules/_global-styles.scss */
 .content a:hover {
   border-bottom: solid 2px #333;
 }
 
-/* line 99, ../sass/modules/_global-styles.scss */
+/* line 102, ../sass/modules/_global-styles.scss */
 .navigation {
   border-top: 1px solid #ccc;
   margin: 2em 0;
 }
 
-/* line 104, ../sass/modules/_global-styles.scss */
+/* line 107, ../sass/modules/_global-styles.scss */
 ul.post-nav {
   margin: 0 auto 2em auto;
   height: 100%;
   max-width: 45.875rem;
   overflow: hidden;
 }
-/* line 110, ../sass/modules/_global-styles.scss */
+/* line 113, ../sass/modules/_global-styles.scss */
 ul.post-nav li {
   margin: 3em 0em 1em;
 }
 
-/* line 116, ../sass/modules/_global-styles.scss */
+/* line 119, ../sass/modules/_global-styles.scss */
 figure.contact img {
   margin-bottom: 15px;
   -webkit-border-radius: 147px;
@@ -208,60 +212,60 @@ figure.contact img {
   margin: 1em 2em 3em 0;
 }
 
-/* line 126, ../sass/modules/_global-styles.scss */
+/* line 129, ../sass/modules/_global-styles.scss */
 li.next {
   float: right;
 }
 
-/* line 130, ../sass/modules/_global-styles.scss */
+/* line 133, ../sass/modules/_global-styles.scss */
 .links {
   margin: 2em 0;
 }
 
 @media screen and (max-width: 700px) {
-  /* line 144, ../sass/modules/_global-styles.scss */
+  /* line 147, ../sass/modules/_global-styles.scss */
   .article-meta {
     width: 11em;
     margin: 0em auto;
   }
 
-  /* line 149, ../sass/modules/_global-styles.scss */
+  /* line 152, ../sass/modules/_global-styles.scss */
   .content {
     margin-top: 2em;
   }
 
-  /* line 153, ../sass/modules/_global-styles.scss */
+  /* line 156, ../sass/modules/_global-styles.scss */
   ul.post-nav {
     text-align: center;
   }
 
-  /* line 158, ../sass/modules/_global-styles.scss */
+  /* line 161, ../sass/modules/_global-styles.scss */
   .info p {
     width: 100%;
     float: left;
     text-align: center;
   }
 
-  /* line 165, ../sass/modules/_global-styles.scss */
+  /* line 168, ../sass/modules/_global-styles.scss */
   figure.contact {
     width: 7em;
     margin: 0 auto;
   }
 
-  /* line 170, ../sass/modules/_global-styles.scss */
+  /* line 173, ../sass/modules/_global-styles.scss */
   span {
     float: left;
     width: 100%;
   }
 
-  /* line 175, ../sass/modules/_global-styles.scss */
+  /* line 178, ../sass/modules/_global-styles.scss */
   .meta {
     width: 25em;
   }
-  /* line 178, ../sass/modules/_global-styles.scss */
+  /* line 181, ../sass/modules/_global-styles.scss */
   .meta li {
     margin: 0;
-    display: inline;
+    display: block;
   }
 }
 /* line 2, ../sass/modules/_header.scss */
