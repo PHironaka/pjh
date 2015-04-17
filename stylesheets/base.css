@@ -257,14 +257,15 @@ li.next {
   /* line 175, ../sass/modules/_global-styles.scss */
   .meta {
     width: 54em;
+    font-size: .88em;
   }
-  /* line 178, ../sass/modules/_global-styles.scss */
+  /* line 179, ../sass/modules/_global-styles.scss */
   .meta li {
     margin: 0;
     display: block;
   }
-  /* line 182, ../sass/modules/_global-styles.scss */
-  .meta li a {
+  /* line 184, ../sass/modules/_global-styles.scss */
+  .meta .meta a {
     width: 100%;
     display: block;
   }
