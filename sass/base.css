@@ -198,7 +198,23 @@ li.next {
   /* line 156, ../sass/modules/_global-styles.scss */
   figure.contact {
     width: 7em;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  /* line 161, ../sass/modules/_global-styles.scss */
+  span {
+    float: left;
+    width: 100%; }
+
+  /* line 166, ../sass/modules/_global-styles.scss */
+  .meta {
+    width: 54em; }
+    /* line 168, ../sass/modules/_global-styles.scss */
+    .meta li {
+      margin: 0; }
+      /* line 171, ../sass/modules/_global-styles.scss */
+      .meta li a {
+        display: block;
+        width: 100%; } }
 /* line 2, ../sass/modules/_header.scss */
 header {
   width: 100%;
