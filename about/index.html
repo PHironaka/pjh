@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <!-- Use title if it's in the page YAML frontmatter -->
-        <title>About</title>
+        <title>How were Tsumego Collections created?</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152-precomposed.png" />
@@ -26,7 +26,7 @@
             
     	 	<ul class="menu">
     	 		<li>
-    	 			<a href="/writing">Work</a>
+    	 			<a href="/work">Work</a>
     	 		</li>
     	 		
     		<li>
@@ -44,7 +44,53 @@
     </header>
       
     <section class="container">
- Hey there, and welcome to my site! 
+ .row
+	.span6
+		:markdown
+			### The books
+
+			Back in 2004, before I had any idea how to code, I created a
+			monster. Started with sgf files containing the problem collections,
+			wrote an [awful Perl script][rotate] rotating the problems to the
+			upper left corner. (Hey, it's just 100 lines of code and actually
+			*does* something. These days I write thousands of lines of code to
+			do nothing much at all.)
+
+			Then used sgf2dg (back when it was called sgf2tex!) to spit out TeX
+			output.  PdfTeX to get pdfs and voila.
+
+			This would be a good place to thank [Toxygen][toxygen].  Do you
+			know how Metafont fonts look when processed with pdfTeX?  Fucking
+			ugly. I spent weeks trying to convert the Metafont go diagram fonts
+			into PostScript format. Then Majo came along and converted them, I
+			still have no idea how he did it. If you ever want to produce go
+			pdf's from TeX, get the [PostScript fonts][fonts].
+
+			[toxygen]: http://toxygen.me/
+			[rotate]:  https://github.com/tasuk/tsumego/blob/master/scripts/rotate.pl
+			[fonts]:   https://github.com/tasuk/tsumego/tree/master/fonts
+
+	.span6
+		:markdown
+			### The goban picture
+
+			The header picture (my favorite tsumego -- no ko!) was done in
+			[POV-Ray][povray], which is an amazing piece of software that went
+			missing from Ubuntu repos recently. Screw Ubuntu.
+
+			### The website
+
+			7 years after launch -- 2013 AD -- seems like the right time to
+			drop the "Beta" and refresh the website a little. Also a good
+			opportunity to finally try out Twitter Bootstrap. And since static
+			site generation is all the rage these days and Jekyll is not hip
+			enough anymore, it's done with Middleman. You can [see the source
+			of the Tsumego Collections website][source] and submit [bug
+			reports][bugs].
+
+			[povray]: http://www.povray.org/
+			[source]: https://github.com/tasuk/tsumego-web
+			[bugs]:   https://github.com/tasuk/tsumego-web/issues
  
  <div class="info">
  <figure class="contact">

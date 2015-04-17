@@ -83,46 +83,60 @@ body {
   margin: 0;
   line-height: 1.5em; }
 
-/* line 21, ../sass/modules/_global-styles.scss */
+/* line 20, ../sass/modules/_global-styles.scss */
+.span6 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  /* line 87, ../sass/neat/grid/_span-columns.scss */
+  .span6:last-child {
+    margin-right: 0; }
+  /* line 22, ../sass/modules/_global-styles.scss */
+  .span6 a {
+    border-bottom: solid 2px #2EBDB2;
+    color: #4A4A4A; }
+
+/* line 28, ../sass/modules/_global-styles.scss */
 .post {
   border-bottom: 1px solid #ccc;
   margin: 0; }
 
-/* line 27, ../sass/modules/_global-styles.scss */
+/* line 34, ../sass/modules/_global-styles.scss */
 .meta {
   font-style: italic;
   margin: 0;
   max-width: 40.875rem; }
-  /* line 32, ../sass/modules/_global-styles.scss */
+  /* line 39, ../sass/modules/_global-styles.scss */
   .meta li {
     margin: 0; }
-  /* line 35, ../sass/modules/_global-styles.scss */
+  /* line 42, ../sass/modules/_global-styles.scss */
   .meta a {
     margin: 0 .3em;
     color: palevioletred; }
 
-/* line 41, ../sass/modules/_global-styles.scss */
+/* line 48, ../sass/modules/_global-styles.scss */
 time.updated {
   float: left;
   width: 100%;
   margin: 1em auto;
   text-align: center; }
 
-/* line 48, ../sass/modules/_global-styles.scss */
+/* line 55, ../sass/modules/_global-styles.scss */
 .article-meta {
   width: 43em;
   font-style: italic;
   margin: 2em auto;
   text-align: center; }
-  /* line 54, ../sass/modules/_global-styles.scss */
+  /* line 61, ../sass/modules/_global-styles.scss */
   .article-meta li {
     display: inline-block;
     margin: 0 .3em; }
-    /* line 58, ../sass/modules/_global-styles.scss */
+    /* line 65, ../sass/modules/_global-styles.scss */
     .article-meta li a {
       color: palevioletred; }
 
-/* line 66, ../sass/modules/_global-styles.scss */
+/* line 73, ../sass/modules/_global-styles.scss */
 p.about-header {
   float: left;
   display: block;
@@ -130,46 +144,46 @@ p.about-header {
   width: 14.70196%;
   color: #333; }
 
-/* line 74, ../sass/modules/_global-styles.scss */
+/* line 81, ../sass/modules/_global-styles.scss */
 p.about {
   float: left;
   display: block;
   margin-right: 4.35765%;
   width: 29.909914%; }
 
-/* line 81, ../sass/modules/_global-styles.scss */
+/* line 88, ../sass/modules/_global-styles.scss */
 .article-links {
   padding-bottom: 2em;
   border-bottom: 1px solid #ccc; }
 
-/* line 86, ../sass/modules/_global-styles.scss */
+/* line 93, ../sass/modules/_global-styles.scss */
 .content {
   margin-top: 4em; }
-  /* line 89, ../sass/modules/_global-styles.scss */
+  /* line 96, ../sass/modules/_global-styles.scss */
   .content a {
     border-bottom: solid 2px #2EBDB2;
     color: #4A4A4A; }
 
-/* line 96, ../sass/modules/_global-styles.scss */
+/* line 103, ../sass/modules/_global-styles.scss */
 .content a:hover {
   border-bottom: solid 2px #333; }
 
-/* line 102, ../sass/modules/_global-styles.scss */
+/* line 109, ../sass/modules/_global-styles.scss */
 .navigation {
   border-top: 1px solid #ccc;
   margin: 2em 0; }
 
-/* line 107, ../sass/modules/_global-styles.scss */
+/* line 114, ../sass/modules/_global-styles.scss */
 ul.post-nav {
   margin: 0 auto 2em auto;
   height: 100%;
   max-width: 45.875rem;
   overflow: hidden; }
-  /* line 113, ../sass/modules/_global-styles.scss */
+  /* line 120, ../sass/modules/_global-styles.scss */
   ul.post-nav li {
     margin: 3em 0em 1em; }
 
-/* line 119, ../sass/modules/_global-styles.scss */
+/* line 126, ../sass/modules/_global-styles.scss */
 figure.contact img {
   margin-bottom: 15px;
   -webkit-border-radius: 147px;
@@ -179,48 +193,52 @@ figure.contact img {
   float: left;
   margin: 1em 2em 3em 0; }
 
-/* line 129, ../sass/modules/_global-styles.scss */
+/* line 136, ../sass/modules/_global-styles.scss */
 li.next {
   float: right; }
 
-/* line 133, ../sass/modules/_global-styles.scss */
+/* line 140, ../sass/modules/_global-styles.scss */
 .links {
   margin: 2em 0; }
 
 @media screen and (max-width: 700px) {
-  /* line 147, ../sass/modules/_global-styles.scss */
+  /* line 154, ../sass/modules/_global-styles.scss */
   .article-meta {
     width: 11em;
     margin: 0em auto; }
 
-  /* line 152, ../sass/modules/_global-styles.scss */
+  /* line 159, ../sass/modules/_global-styles.scss */
+  .span6 {
+    width: 100%; }
+
+  /* line 163, ../sass/modules/_global-styles.scss */
   .content {
     margin-top: 2em; }
 
-  /* line 156, ../sass/modules/_global-styles.scss */
+  /* line 167, ../sass/modules/_global-styles.scss */
   ul.post-nav {
     text-align: center; }
 
-  /* line 161, ../sass/modules/_global-styles.scss */
+  /* line 172, ../sass/modules/_global-styles.scss */
   .info p {
     width: 100%;
     float: left;
     text-align: center; }
 
-  /* line 168, ../sass/modules/_global-styles.scss */
+  /* line 179, ../sass/modules/_global-styles.scss */
   figure.contact {
     width: 7em;
     margin: 0 auto; }
 
-  /* line 173, ../sass/modules/_global-styles.scss */
+  /* line 184, ../sass/modules/_global-styles.scss */
   span {
     float: left;
     width: 100%; }
 
-  /* line 178, ../sass/modules/_global-styles.scss */
+  /* line 189, ../sass/modules/_global-styles.scss */
   .meta {
     width: 25em; }
-    /* line 181, ../sass/modules/_global-styles.scss */
+    /* line 192, ../sass/modules/_global-styles.scss */
     .meta li {
       margin: 0;
       display: block; } }
@@ -307,7 +325,7 @@ h2.article-title {
   line-height: 1.5em; }
 
 /* line 65, ../sass/base.scss */
-h2.about-title {
+h2.page-title {
   font-size: 1.7rem;
   font-weight: 700;
   margin: 1.4em 0 0em;
