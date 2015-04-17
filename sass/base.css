@@ -79,7 +79,7 @@ body {
   font-family: "Merriweather", serif;
   font-size: .88em;
   font-weight: 400;
-  color: #333;
+  color: #4A4A4A;
   margin: 0;
   line-height: 1.5em; }
 
@@ -101,7 +101,7 @@ body {
 /* line 38, ../sass/modules/_global-styles.scss */
 time.updated {
   float: left;
-  width: 51em;
+  width: 100%;
   margin: 1em auto;
   text-align: center; }
 
@@ -142,23 +142,31 @@ p.about {
 /* line 83, ../sass/modules/_global-styles.scss */
 .content {
   margin-top: 4em; }
+  /* line 86, ../sass/modules/_global-styles.scss */
+  .content a {
+    border-bottom: solid 2px #2EBDB2;
+    color: #4A4A4A; }
 
-/* line 87, ../sass/modules/_global-styles.scss */
+/* line 93, ../sass/modules/_global-styles.scss */
+.content a:hover {
+  border-bottom: solid 2px #333; }
+
+/* line 99, ../sass/modules/_global-styles.scss */
 .navigation {
   border-top: 1px solid #ccc;
   margin: 2em 0; }
 
-/* line 92, ../sass/modules/_global-styles.scss */
+/* line 104, ../sass/modules/_global-styles.scss */
 ul.post-nav {
   margin: 0 auto 2em auto;
   height: 100%;
   max-width: 45.875rem;
   overflow: hidden; }
-  /* line 98, ../sass/modules/_global-styles.scss */
+  /* line 110, ../sass/modules/_global-styles.scss */
   ul.post-nav li {
     margin: 3em 0em 1em; }
 
-/* line 104, ../sass/modules/_global-styles.scss */
+/* line 116, ../sass/modules/_global-styles.scss */
 figure.contact img {
   margin-bottom: 15px;
   -webkit-border-radius: 147px;
@@ -168,14 +176,29 @@ figure.contact img {
   float: left;
   margin: 1em 2em 3em 0; }
 
-/* line 114, ../sass/modules/_global-styles.scss */
+/* line 126, ../sass/modules/_global-styles.scss */
 li.next {
   float: right; }
 
-/* line 118, ../sass/modules/_global-styles.scss */
+/* line 130, ../sass/modules/_global-styles.scss */
 .links {
   margin: 2em 0; }
 
+@media screen and (max-width: 700px) {
+  /* line 144, ../sass/modules/_global-styles.scss */
+  ul.post-nav {
+    text-align: center; }
+
+  /* line 149, ../sass/modules/_global-styles.scss */
+  .info p {
+    width: 100%;
+    float: left;
+    text-align: center; }
+
+  /* line 156, ../sass/modules/_global-styles.scss */
+  figure.contact {
+    width: 7em;
+    margin: 0 auto; } }
 /* line 2, ../sass/modules/_header.scss */
 header {
   width: 100%;
@@ -295,7 +318,7 @@ a {
 /* line 101, ../sass/base.scss */
 p {
   font-size: 1em;
-  color: #777;
+  color: #4A4A4A;
   line-height: 2.2em;
   margin: 1em 0; }
 
@@ -340,3 +363,13 @@ a:hover {
     top: 40%;
     line-height: 2em;
     padding: 1em 0 0; }
+
+@media screen and (max-width: 700px) {
+  /* line 160, ../sass/base.scss */
+  h2.article-title {
+    font-size: 1.5rem;
+    font-weight: 700; }
+
+  /* line 166, ../sass/base.scss */
+  li.next {
+    float: none; } }
