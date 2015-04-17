@@ -220,41 +220,47 @@ li.next {
 
 @media screen and (max-width: 700px) {
   /* line 144, ../sass/modules/_global-styles.scss */
+  .article-meta {
+    width: 11em;
+  }
+
+  /* line 151, ../sass/modules/_global-styles.scss */
   ul.post-nav {
     text-align: center;
   }
 
-  /* line 149, ../sass/modules/_global-styles.scss */
+  /* line 156, ../sass/modules/_global-styles.scss */
   .info p {
     width: 100%;
     float: left;
     text-align: center;
   }
 
-  /* line 156, ../sass/modules/_global-styles.scss */
+  /* line 163, ../sass/modules/_global-styles.scss */
   figure.contact {
     width: 7em;
     margin: 0 auto;
   }
 
-  /* line 161, ../sass/modules/_global-styles.scss */
+  /* line 168, ../sass/modules/_global-styles.scss */
   span {
     float: left;
     width: 100%;
   }
 
-  /* line 166, ../sass/modules/_global-styles.scss */
+  /* line 173, ../sass/modules/_global-styles.scss */
   .meta {
     width: 54em;
   }
-  /* line 168, ../sass/modules/_global-styles.scss */
+  /* line 175, ../sass/modules/_global-styles.scss */
   .meta li {
     margin: 0;
   }
-  /* line 171, ../sass/modules/_global-styles.scss */
+  /* line 178, ../sass/modules/_global-styles.scss */
   .meta li a {
     display: block;
     width: 100%;
+    font-size: .88em;
   }
 }
 /* line 2, ../sass/modules/_header.scss */
