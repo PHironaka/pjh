@@ -256,19 +256,12 @@ li.next {
 
   /* line 175, ../sass/modules/_global-styles.scss */
   .meta {
-    width: 54em;
-    font-size: .88em;
+    width: 25em;
   }
-  /* line 179, ../sass/modules/_global-styles.scss */
+  /* line 178, ../sass/modules/_global-styles.scss */
   .meta li {
     margin: 0;
-    display: block;
-  }
-
-  /* line 184, ../sass/modules/_global-styles.scss */
-  .meta a {
-    width: 100%;
-    display: block;
+    display: inline;
   }
 }
 /* line 2, ../sass/modules/_header.scss */
