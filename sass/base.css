@@ -222,10 +222,11 @@ li.next {
     .meta li {
       margin: 0;
       display: block; }
-    /* line 184, ../sass/modules/_global-styles.scss */
-    .meta .meta a {
-      width: 100%;
-      display: block; } }
+
+  /* line 184, ../sass/modules/_global-styles.scss */
+  .meta a {
+    width: 100%;
+    display: block; } }
 /* line 2, ../sass/modules/_header.scss */
 header {
   width: 100%;

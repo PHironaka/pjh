@@ -264,8 +264,9 @@ li.next {
     margin: 0;
     display: block;
   }
+
   /* line 184, ../sass/modules/_global-styles.scss */
-  .meta .meta a {
+  .meta a {
     width: 100%;
     display: block;
   }
