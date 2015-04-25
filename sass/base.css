@@ -228,37 +228,41 @@ li.next {
     padding: 0.2em; }
 
   /* line 182, ../sass/modules/_global-styles.scss */
-  .span6 {
+  .related-posts {
     width: 100%; }
 
   /* line 186, ../sass/modules/_global-styles.scss */
+  .span6 {
+    width: 100%; }
+
+  /* line 190, ../sass/modules/_global-styles.scss */
   .content {
     margin-top: 2em; }
 
-  /* line 190, ../sass/modules/_global-styles.scss */
+  /* line 194, ../sass/modules/_global-styles.scss */
   ul.post-nav {
     text-align: center; }
 
-  /* line 195, ../sass/modules/_global-styles.scss */
+  /* line 199, ../sass/modules/_global-styles.scss */
   .info p {
     width: 100%;
     float: left;
     text-align: center; }
 
-  /* line 202, ../sass/modules/_global-styles.scss */
+  /* line 206, ../sass/modules/_global-styles.scss */
   figure.contact {
     width: 7em;
     margin: 0 auto; }
 
-  /* line 207, ../sass/modules/_global-styles.scss */
+  /* line 211, ../sass/modules/_global-styles.scss */
   span {
     float: left;
     width: 100%; }
 
-  /* line 212, ../sass/modules/_global-styles.scss */
+  /* line 216, ../sass/modules/_global-styles.scss */
   .meta {
     width: 25em; }
-    /* line 215, ../sass/modules/_global-styles.scss */
+    /* line 219, ../sass/modules/_global-styles.scss */
     .meta li {
       margin: 0;
       display: block; } }
