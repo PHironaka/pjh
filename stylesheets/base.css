@@ -264,44 +264,51 @@ li.next {
   }
 
   /* line 176, ../sass/modules/_global-styles.scss */
+  .article-meta li {
+    display: block;
+    margin: 0.5em;
+    padding: 0.2em;
+  }
+
+  /* line 182, ../sass/modules/_global-styles.scss */
   .span6 {
     width: 100%;
   }
 
-  /* line 180, ../sass/modules/_global-styles.scss */
+  /* line 186, ../sass/modules/_global-styles.scss */
   .content {
     margin-top: 2em;
   }
 
-  /* line 184, ../sass/modules/_global-styles.scss */
+  /* line 190, ../sass/modules/_global-styles.scss */
   ul.post-nav {
     text-align: center;
   }
 
-  /* line 189, ../sass/modules/_global-styles.scss */
+  /* line 195, ../sass/modules/_global-styles.scss */
   .info p {
     width: 100%;
     float: left;
     text-align: center;
   }
 
-  /* line 196, ../sass/modules/_global-styles.scss */
+  /* line 202, ../sass/modules/_global-styles.scss */
   figure.contact {
     width: 7em;
     margin: 0 auto;
   }
 
-  /* line 201, ../sass/modules/_global-styles.scss */
+  /* line 207, ../sass/modules/_global-styles.scss */
   span {
     float: left;
     width: 100%;
   }
 
-  /* line 206, ../sass/modules/_global-styles.scss */
+  /* line 212, ../sass/modules/_global-styles.scss */
   .meta {
     width: 25em;
   }
-  /* line 209, ../sass/modules/_global-styles.scss */
+  /* line 215, ../sass/modules/_global-styles.scss */
   .meta li {
     margin: 0;
     display: block;
@@ -345,6 +352,16 @@ a.logo {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 700px) {
+  /* line 47, ../sass/modules/_header.scss */
+  ul {
+    max-width: 16.875rem;
+  }
+  /* line 50, ../sass/modules/_header.scss */
+  ul li {
+    margin: 0 1em;
+  }
+}
 /* line 2, ../sass/modules/_footer.scss */
 footer {
   width: 100%;
@@ -513,12 +530,17 @@ a:hover {
 }
 @media screen and (max-width: 700px) {
   /* line 169, ../sass/base.scss */
+  .container {
+    padding: 0 1.55555em;
+  }
+
+  /* line 175, ../sass/base.scss */
   h2.article-title {
     font-size: 1.5rem;
     font-weight: 700;
   }
 
-  /* line 175, ../sass/base.scss */
+  /* line 181, ../sass/base.scss */
   li.next {
     float: none;
   }
