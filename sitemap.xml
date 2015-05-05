@@ -68,13 +68,13 @@
   </url>
   <url>
     <loc>phironaka.com/about/</loc>
-    <lastmod>2015-04-17T12:12:58-07:00</lastmod>
+    <lastmod>2015-05-04T15:49:49-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>phironaka.com/</loc>
-    <lastmod>2015-04-24T17:39:05-07:00</lastmod>
+    <lastmod>2015-05-05T10:39:44-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -92,7 +92,7 @@
   </url>
   <url>
     <loc>phironaka.com/work/</loc>
-    <lastmod>2015-04-17T11:05:20-07:00</lastmod>
+    <lastmod>2015-05-05T09:22:41-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -183,12 +183,6 @@
   <url>
     <loc>phironaka.com/tags/website-development/</loc>
     <lastmod>2015-04-17T10:22:43-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>phironaka.com/work/page2/</loc>
-    <lastmod>2015-04-17T11:05:20-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
