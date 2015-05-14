@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>phironaka.com/tmc-redesign/</loc>
+    <lastmod>2015-04-23T08:32:53-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>phironaka.com/404/</loc>
     <lastmod>2015-05-11T12:23:56-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -8,7 +14,7 @@
   </url>
   <url>
     <loc>phironaka.com/about/</loc>
-    <lastmod>2015-05-11T11:55:08-07:00</lastmod>
+    <lastmod>2015-05-11T12:59:29-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,6 +37,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>phironaka.com/resume/</loc>
+    <lastmod>2015-05-11T13:14:09-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>phironaka.com/Untitled/</loc>
+    <lastmod>2015-05-11T15:45:37-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>phironaka.com/work/</loc>
     <lastmod>2015-05-11T11:57:36-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -39,6 +57,24 @@
   <url>
     <loc>phironaka.com/writing/</loc>
     <lastmod>2015-04-17T11:08:51-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>phironaka.com/tags/work/</loc>
+    <lastmod>2015-04-17T10:22:43-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>phironaka.com/tags/the-madbury-club/</loc>
+    <lastmod>2015-04-17T10:22:43-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>phironaka.com/tags/website-development/</loc>
+    <lastmod>2015-04-17T10:22:43-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -97,24 +97,22 @@ body {
   line-height: 1.5em;
 }
 
-/* line 19, ../sass/modules/_global-styles.scss */
-.span6 {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
+/* line 20, ../sass/modules/_global-styles.scss */
+.resume-wrapper h1 {
+  font-size: 1.7em;
+  font-weight: 700;
+  text-align: left;
+  padding-bottom: 1.1em;
+  border-bottom: solid 4px #2EBDB2;
 }
-/* line 87, ../sass/neat/grid/_span-columns.scss */
-.span6:last-child {
-  margin-right: 0;
-}
-/* line 21, ../sass/modules/_global-styles.scss */
-.span6 a {
+
+/* line 30, ../sass/modules/_global-styles.scss */
+.wrapper a {
   border-bottom: solid 2px #2EBDB2;
   color: #4A4A4A;
 }
 
-/* line 27, ../sass/modules/_global-styles.scss */
+/* line 36, ../sass/modules/_global-styles.scss */
 .work-wrapper {
   max-width: 100%;
   margin-left: auto;
@@ -129,17 +127,17 @@ body {
   display: table;
 }
 
-/* line 33, ../sass/modules/_global-styles.scss */
+/* line 42, ../sass/modules/_global-styles.scss */
 .work-media {
   margin: 0;
 }
 
-/* line 37, ../sass/modules/_global-styles.scss */
+/* line 46, ../sass/modules/_global-styles.scss */
 .fluid-width-video-wrapper {
   margin: 1em 0;
 }
 
-/* line 41, ../sass/modules/_global-styles.scss */
+/* line 50, ../sass/modules/_global-styles.scss */
 .work-media {
   float: left;
   display: block;
@@ -151,51 +149,51 @@ body {
   margin-right: 0;
 }
 
-/* line 46, ../sass/modules/_global-styles.scss */
+/* line 55, ../sass/modules/_global-styles.scss */
 .work-text {
   float: left;
   display: block;
   width: 48.82117%;
 }
-/* line 51, ../sass/modules/_global-styles.scss */
+/* line 60, ../sass/modules/_global-styles.scss */
 .work-text p {
   font-size: 1em;
 }
-/* line 55, ../sass/modules/_global-styles.scss */
+/* line 64, ../sass/modules/_global-styles.scss */
 .work-text h1 {
   font-size: 1.5em;
   margin-top: .5em;
   text-align: left;
   line-height: 2em;
 }
-/* line 61, ../sass/modules/_global-styles.scss */
+/* line 70, ../sass/modules/_global-styles.scss */
 .work-text h1 a {
   padding: .5em 0;
 }
 
-/* line 67, ../sass/modules/_global-styles.scss */
+/* line 76, ../sass/modules/_global-styles.scss */
 .post {
   border-bottom: 1px solid #ccc;
   margin: 0;
 }
 
-/* line 73, ../sass/modules/_global-styles.scss */
+/* line 82, ../sass/modules/_global-styles.scss */
 .meta {
   font-style: italic;
   margin: 0;
   max-width: 40.875rem;
 }
-/* line 78, ../sass/modules/_global-styles.scss */
+/* line 87, ../sass/modules/_global-styles.scss */
 .meta li {
   margin: 0;
 }
-/* line 81, ../sass/modules/_global-styles.scss */
+/* line 90, ../sass/modules/_global-styles.scss */
 .meta a {
   margin: 0 .3em;
   color: palevioletred;
 }
 
-/* line 87, ../sass/modules/_global-styles.scss */
+/* line 96, ../sass/modules/_global-styles.scss */
 time.updated {
   float: left;
   width: 100%;
@@ -203,13 +201,13 @@ time.updated {
   text-align: center;
 }
 
-/* line 94, ../sass/modules/_global-styles.scss */
+/* line 103, ../sass/modules/_global-styles.scss */
 .article-meta {
   width: 100%;
   margin: 0;
   max-width: 100%;
 }
-/* line 100, ../sass/modules/_global-styles.scss */
+/* line 109, ../sass/modules/_global-styles.scss */
 .article-meta li {
   display: inline-block;
   margin: 0 .3em;
@@ -217,7 +215,7 @@ time.updated {
   padding: .5em;
 }
 
-/* line 111, ../sass/modules/_global-styles.scss */
+/* line 120, ../sass/modules/_global-styles.scss */
 p.about-header {
   float: left;
   display: block;
@@ -226,7 +224,7 @@ p.about-header {
   color: #333;
 }
 
-/* line 119, ../sass/modules/_global-styles.scss */
+/* line 128, ../sass/modules/_global-styles.scss */
 p.about {
   float: left;
   display: block;
@@ -234,12 +232,12 @@ p.about {
   width: 29.909914%;
 }
 
-/* line 126, ../sass/modules/_global-styles.scss */
+/* line 135, ../sass/modules/_global-styles.scss */
 .article-links {
   padding: 2em 0;
 }
 
-/* line 130, ../sass/modules/_global-styles.scss */
+/* line 139, ../sass/modules/_global-styles.scss */
 .related-posts {
   float: left;
   display: block;
@@ -247,54 +245,54 @@ p.about {
   width: 30.76157%;
   padding: 3em 0;
 }
-/* line 137, ../sass/modules/_global-styles.scss */
+/* line 146, ../sass/modules/_global-styles.scss */
 .related-posts h1 {
   font-size: 1.1em;
   text-align: left;
 }
-/* line 141, ../sass/modules/_global-styles.scss */
+/* line 150, ../sass/modules/_global-styles.scss */
 .related-posts p {
   font-size: .98em;
 }
-/* line 145, ../sass/modules/_global-styles.scss */
+/* line 154, ../sass/modules/_global-styles.scss */
 .related-posts a.more {
   border-bottom: solid 2px #2EBDB2;
 }
 
-/* line 150, ../sass/modules/_global-styles.scss */
+/* line 159, ../sass/modules/_global-styles.scss */
 .content {
   margin-top: 4em;
 }
-/* line 153, ../sass/modules/_global-styles.scss */
+/* line 162, ../sass/modules/_global-styles.scss */
 .content a {
   border-bottom: solid 2px #2EBDB2;
   color: #4A4A4A;
 }
 
-/* line 160, ../sass/modules/_global-styles.scss */
+/* line 169, ../sass/modules/_global-styles.scss */
 .content a:hover {
   border-bottom: solid 2px #333;
 }
 
-/* line 166, ../sass/modules/_global-styles.scss */
+/* line 175, ../sass/modules/_global-styles.scss */
 .navigation {
   border-top: 1px solid #ccc;
   margin: 2em 0;
 }
 
-/* line 171, ../sass/modules/_global-styles.scss */
+/* line 180, ../sass/modules/_global-styles.scss */
 ul.post-nav {
   margin: 0 auto 2em auto;
   height: 100%;
   max-width: 50.875rem;
   overflow: hidden;
 }
-/* line 177, ../sass/modules/_global-styles.scss */
+/* line 186, ../sass/modules/_global-styles.scss */
 ul.post-nav li {
   margin: 3em 0em 1em;
 }
 
-/* line 183, ../sass/modules/_global-styles.scss */
+/* line 192, ../sass/modules/_global-styles.scss */
 figure.contact img {
   margin-bottom: 15px;
   -webkit-border-radius: 147px;
@@ -305,86 +303,86 @@ figure.contact img {
   margin: 1em 2em 2em 0;
 }
 
-/* line 193, ../sass/modules/_global-styles.scss */
+/* line 202, ../sass/modules/_global-styles.scss */
 li.next {
   float: right;
 }
 
-/* line 197, ../sass/modules/_global-styles.scss */
+/* line 206, ../sass/modules/_global-styles.scss */
 .links {
   margin: 2em 0;
 }
 
 @media screen and (max-width: 1000px) {
-  /* line 210, ../sass/modules/_global-styles.scss */
+  /* line 219, ../sass/modules/_global-styles.scss */
   .work-media {
     width: 100%;
   }
 
-  /* line 215, ../sass/modules/_global-styles.scss */
+  /* line 224, ../sass/modules/_global-styles.scss */
   .work-text {
     width: 100%;
   }
 }
 @media screen and (max-width: 700px) {
-  /* line 223, ../sass/modules/_global-styles.scss */
+  /* line 232, ../sass/modules/_global-styles.scss */
   .article-meta {
     width: 11em;
     margin: 0em auto;
   }
 
-  /* line 228, ../sass/modules/_global-styles.scss */
+  /* line 237, ../sass/modules/_global-styles.scss */
   .article-meta li {
     display: block;
     margin: 0.5em;
     padding: 0.2em;
   }
 
-  /* line 234, ../sass/modules/_global-styles.scss */
+  /* line 243, ../sass/modules/_global-styles.scss */
   .related-posts {
     width: 100%;
   }
 
-  /* line 238, ../sass/modules/_global-styles.scss */
+  /* line 247, ../sass/modules/_global-styles.scss */
   .span6 {
     width: 100%;
   }
 
-  /* line 242, ../sass/modules/_global-styles.scss */
+  /* line 251, ../sass/modules/_global-styles.scss */
   .content {
     margin-top: 2em;
   }
 
-  /* line 246, ../sass/modules/_global-styles.scss */
+  /* line 255, ../sass/modules/_global-styles.scss */
   ul.post-nav {
     text-align: center;
   }
 
-  /* line 251, ../sass/modules/_global-styles.scss */
+  /* line 260, ../sass/modules/_global-styles.scss */
   .info p {
     width: 100%;
     float: left;
     text-align: center;
   }
 
-  /* line 258, ../sass/modules/_global-styles.scss */
+  /* line 267, ../sass/modules/_global-styles.scss */
   figure.contact {
     width: 7em;
     margin: 0 auto;
   }
 
-  /* line 263, ../sass/modules/_global-styles.scss */
+  /* line 272, ../sass/modules/_global-styles.scss */
   span {
     float: left;
     width: 100%;
     text-align: center;
   }
 
-  /* line 269, ../sass/modules/_global-styles.scss */
+  /* line 278, ../sass/modules/_global-styles.scss */
   .meta {
     width: 25em;
   }
-  /* line 272, ../sass/modules/_global-styles.scss */
+  /* line 281, ../sass/modules/_global-styles.scss */
   .meta li {
     margin: 0;
     display: block;
