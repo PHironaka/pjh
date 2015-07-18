@@ -222,37 +222,36 @@ p.about {
   margin-top: 4em; }
   /* line 160, ../sass/modules/_global-styles.scss */
   .content a {
-    border-bottom: solid 2px #2EBDB2;
-    color: #4A4A4A; }
+    border-bottom: solid 4px #2EBDB2; }
 
-/* line 167, ../sass/modules/_global-styles.scss */
+/* line 166, ../sass/modules/_global-styles.scss */
 .content a:hover {
-  border-bottom: solid 2px #333; }
+  border-bottom: solid 4px #333; }
 
-/* line 173, ../sass/modules/_global-styles.scss */
+/* line 172, ../sass/modules/_global-styles.scss */
 .navigation {
   border-top: 1px solid #ccc;
   margin: 2em 0 0; }
 
-/* line 178, ../sass/modules/_global-styles.scss */
+/* line 177, ../sass/modules/_global-styles.scss */
 figure.post-thumb {
   float: left;
   display: block;
   width: 50%;
   padding: 1.35765%; }
 
-/* line 186, ../sass/modules/_global-styles.scss */
+/* line 185, ../sass/modules/_global-styles.scss */
 ul.post-nav {
   margin: 0;
   height: 100%;
   max-width: 50.875rem;
   overflow: hidden;
   font-size: 1.1em; }
-  /* line 193, ../sass/modules/_global-styles.scss */
+  /* line 192, ../sass/modules/_global-styles.scss */
   ul.post-nav li {
     margin: 1em 0em 1em; }
 
-/* line 200, ../sass/modules/_global-styles.scss */
+/* line 199, ../sass/modules/_global-styles.scss */
 figure.contact img {
   margin-bottom: 15px;
   -webkit-border-radius: 147px;
@@ -262,71 +261,78 @@ figure.contact img {
   float: left;
   margin: 1em 2em 2em 0; }
 
-/* line 210, ../sass/modules/_global-styles.scss */
+/* line 209, ../sass/modules/_global-styles.scss */
 li.next {
   float: right; }
 
-/* line 214, ../sass/modules/_global-styles.scss */
+/* line 213, ../sass/modules/_global-styles.scss */
 .links {
   margin: 2em 0; }
 
 @media screen and (max-width: 850px) {
-  /* line 227, ../sass/modules/_global-styles.scss */
+  /* line 226, ../sass/modules/_global-styles.scss */
   .work-media {
     width: 100%; }
 
-  /* line 232, ../sass/modules/_global-styles.scss */
+  /* line 231, ../sass/modules/_global-styles.scss */
   .work-text {
     width: 100%; } }
 @media screen and (max-width: 700px) {
-  /* line 240, ../sass/modules/_global-styles.scss */
+  /* line 239, ../sass/modules/_global-styles.scss */
   .article-meta {
     width: 11em;
-    margin: 0em auto; }
+    margin: 0em; }
 
-  /* line 245, ../sass/modules/_global-styles.scss */
-  .article-meta li {
+  /* line 244, ../sass/modules/_global-styles.scss */
+  figure.post-thumb {
+    float: left;
     display: block;
-    margin: 0.5em;
-    padding: 0.2em; }
+    width: 100%;
+    padding: 1.35765%; }
 
   /* line 251, ../sass/modules/_global-styles.scss */
+  .article-meta li {
+    display: block;
+    margin: .5em 0;
+    padding: 0.2em; }
+
+  /* line 257, ../sass/modules/_global-styles.scss */
   .related-posts {
     width: 100%; }
 
-  /* line 255, ../sass/modules/_global-styles.scss */
+  /* line 261, ../sass/modules/_global-styles.scss */
   .span6 {
     width: 100%; }
 
-  /* line 259, ../sass/modules/_global-styles.scss */
+  /* line 265, ../sass/modules/_global-styles.scss */
   .content {
     margin-top: 2em; }
 
-  /* line 263, ../sass/modules/_global-styles.scss */
+  /* line 269, ../sass/modules/_global-styles.scss */
   ul.post-nav {
     text-align: center; }
 
-  /* line 268, ../sass/modules/_global-styles.scss */
+  /* line 274, ../sass/modules/_global-styles.scss */
   .info p {
     width: 100%;
     float: left;
     text-align: center; }
 
-  /* line 275, ../sass/modules/_global-styles.scss */
+  /* line 281, ../sass/modules/_global-styles.scss */
   figure.contact {
     width: 7em;
     margin: 0 auto; }
 
-  /* line 280, ../sass/modules/_global-styles.scss */
+  /* line 286, ../sass/modules/_global-styles.scss */
   span {
     float: left;
     width: 100%;
     text-align: center; }
 
-  /* line 286, ../sass/modules/_global-styles.scss */
+  /* line 292, ../sass/modules/_global-styles.scss */
   .meta {
     width: 25em; }
-    /* line 289, ../sass/modules/_global-styles.scss */
+    /* line 295, ../sass/modules/_global-styles.scss */
     .meta li {
       margin: 0;
       display: block; } }
@@ -561,34 +567,44 @@ h3 {
   margin: 2em 0; }
 
 /* line 83, ../sass/base.scss */
+h4 {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 1em 0; }
+  /* line 88, ../sass/base.scss */
+  h4 a {
+    color: #2EBDB2; }
+
+/* line 93, ../sass/base.scss */
 .info {
   border-top: 1px solid #ccc;
   padding-top: 2em;
   float: left;
   font-size: .88em; }
 
-/* line 91, ../sass/base.scss */
+/* line 101, ../sass/base.scss */
 span {
   font-size: 1em;
   color: #2EBDB2; }
 
-/* line 96, ../sass/base.scss */
+/* line 106, ../sass/base.scss */
 a {
   text-decoration: none;
   color: #333; }
 
-/* line 102, ../sass/base.scss */
+/* line 112, ../sass/base.scss */
 p {
   font-size: 1.2em;
   color: #4A4A4A;
   line-height: 2.2em;
   margin: 1em 0; }
 
-/* line 109, ../sass/base.scss */
+/* line 119, ../sass/base.scss */
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  vertical-align: middle; }
 
-/* line 113, ../sass/base.scss */
+/* line 124, ../sass/base.scss */
 figure img {
   max-width: 100%;
   animation: fadein 1s;
@@ -599,7 +615,7 @@ figure img {
   -o-animation: fadein 1s;
   /* Opera */ }
 
-/* line 120, ../sass/base.scss */
+/* line 131, ../sass/base.scss */
 a:hover {
   color: #ccc;
   -moz-transition: all .5s ease-out;
@@ -607,18 +623,18 @@ a:hover {
   -webkit-transition: all .5s ease-out;
   transition: all .5s ease-out; }
 
-/* line 130, ../sass/base.scss */
+/* line 141, ../sass/base.scss */
 .index-nav {
   margin: 0 auto 1em auto;
   max-width: 100%; }
-  /* line 134, ../sass/base.scss */
+  /* line 145, ../sass/base.scss */
   .index-nav li.next {
     margin: 0.5em auto;
     text-align: right;
     top: 40%;
     line-height: 2em;
     padding: 1em 0 0; }
-  /* line 143, ../sass/base.scss */
+  /* line 154, ../sass/base.scss */
   .index-nav li.previous {
     margin: 0.5em auto;
     text-align: left;
@@ -627,20 +643,20 @@ a:hover {
     padding: 1em 0 0; }
 
 @media screen and (max-width: 900px) {
-  /* line 160, ../sass/base.scss */
+  /* line 171, ../sass/base.scss */
   p {
     font-size: 1em; } }
 @media screen and (max-width: 700px) {
-  /* line 170, ../sass/base.scss */
+  /* line 181, ../sass/base.scss */
   .container {
     padding: 0 1.55555em; }
 
-  /* line 176, ../sass/base.scss */
+  /* line 187, ../sass/base.scss */
   h2.article-title {
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center; }
 
-  /* line 183, ../sass/base.scss */
+  /* line 194, ../sass/base.scss */
   li.next {
     float: none; } }
