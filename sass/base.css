@@ -634,14 +634,16 @@ h4 {
 /* line 99, ../sass/base.scss */
 span {
   font-size: 1em;
-  color: #2EBDB2; }
+  padding: 0 0 2em 0;
+  color: #2EBDB2;
+  float: left; }
 
-/* line 104, ../sass/base.scss */
+/* line 106, ../sass/base.scss */
 a {
   text-decoration: none;
   color: #333; }
 
-/* line 109, ../sass/base.scss */
+/* line 111, ../sass/base.scss */
 .updates {
   max-width: 100%;
   margin-left: auto;
@@ -653,7 +655,7 @@ a {
     content: "";
     display: table; }
 
-/* line 114, ../sass/base.scss */
+/* line 116, ../sass/base.scss */
 .blog {
   max-width: 100%;
   margin-left: auto;
@@ -663,7 +665,7 @@ a {
     clear: both;
     content: "";
     display: table; }
-  /* line 117, ../sass/base.scss */
+  /* line 119, ../sass/base.scss */
   .blog article {
     float: left;
     display: block;
@@ -672,11 +674,11 @@ a {
     /* line 87, ../sass/neat/grid/_span-columns.scss */
     .blog article:last-child {
       margin-right: 0; }
-  /* line 120, ../sass/base.scss */
+  /* line 122, ../sass/base.scss */
   .blog h1 {
     padding: 0; }
 
-/* line 125, ../sass/base.scss */
+/* line 127, ../sass/base.scss */
 .post {
   float: left;
   display: block;
@@ -685,18 +687,18 @@ a {
   /* line 87, ../sass/neat/grid/_span-columns.scss */
   .post:last-child {
     margin-right: 0; }
-  /* line 128, ../sass/base.scss */
+  /* line 130, ../sass/base.scss */
   .post h2 {
     font-size: 1.5em;
     font-weight: 300;
     margin: 1em 0 0em;
     line-height: 1.5em;
     font-style: italic; }
-  /* line 136, ../sass/base.scss */
+  /* line 138, ../sass/base.scss */
   .post p {
     margin: 0 0 1em 0; }
 
-/* line 143, ../sass/base.scss */
+/* line 145, ../sass/base.scss */
 h2.article-title {
   font-size: 2.5em;
   font-weight: 300;
@@ -704,19 +706,19 @@ h2.article-title {
   line-height: 1.5em;
   font-style: italic; }
 
-/* line 151, ../sass/base.scss */
+/* line 153, ../sass/base.scss */
 p {
   font-size: 1.1em;
   line-height: 2.2em;
   margin: 1em 0;
   font-weight: 300; }
 
-/* line 158, ../sass/base.scss */
+/* line 160, ../sass/base.scss */
 img {
   max-width: 100%;
   vertical-align: middle; }
 
-/* line 163, ../sass/base.scss */
+/* line 165, ../sass/base.scss */
 figure img {
   max-width: 100%;
   animation: fadein 1s;
@@ -727,7 +729,7 @@ figure img {
   -o-animation: fadein 1s;
   /* Opera */ }
 
-/* line 170, ../sass/base.scss */
+/* line 172, ../sass/base.scss */
 a:hover {
   color: #ccc;
   -moz-transition: all .5s ease-out;
@@ -735,18 +737,18 @@ a:hover {
   -webkit-transition: all .5s ease-out;
   transition: all .5s ease-out; }
 
-/* line 180, ../sass/base.scss */
+/* line 182, ../sass/base.scss */
 .index-nav {
   margin: 0 auto 1em auto;
   max-width: 100%; }
-  /* line 184, ../sass/base.scss */
+  /* line 186, ../sass/base.scss */
   .index-nav li.next {
     margin: 0.5em auto;
     text-align: right;
     top: 40%;
     line-height: 2em;
     padding: 1em 0 0; }
-  /* line 193, ../sass/base.scss */
+  /* line 195, ../sass/base.scss */
   .index-nav li.previous {
     margin: 0.5em auto;
     text-align: left;
@@ -755,20 +757,20 @@ a:hover {
     padding: 1em 0 0; }
 
 @media screen and (max-width: 900px) {
-  /* line 210, ../sass/base.scss */
+  /* line 212, ../sass/base.scss */
   p {
     font-size: 1em; } }
 @media screen and (max-width: 700px) {
-  /* line 220, ../sass/base.scss */
+  /* line 222, ../sass/base.scss */
   .container {
     padding: 0 1.55555em; }
 
-  /* line 226, ../sass/base.scss */
+  /* line 228, ../sass/base.scss */
   h2.article-title {
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center; }
 
-  /* line 233, ../sass/base.scss */
+  /* line 235, ../sass/base.scss */
   li.next {
     float: none; } }
