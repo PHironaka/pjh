@@ -407,14 +407,13 @@ header {
   top: 0;
   z-index: 10;
   padding: 0;
-  border-top: 8px solid #9995FF;
   font-weight: 700;
 }
-/* line 14, ../sass/modules/_header.scss */
+/* line 13, ../sass/modules/_header.scss */
 header h1 {
   font-size: 1.467em;
 }
-/* line 20, ../sass/modules/_header.scss */
+/* line 19, ../sass/modules/_header.scss */
 header p {
   float: left;
   display: block;
@@ -428,7 +427,7 @@ header p:last-child {
   margin-right: 0;
 }
 
-/* line 28, ../sass/modules/_header.scss */
+/* line 27, ../sass/modules/_header.scss */
 h1.about {
   font-size: 2.6em;
   line-height: 1.7em;
@@ -437,7 +436,7 @@ h1.about {
   padding: 2em 0 1em;
 }
 
-/* line 36, ../sass/modules/_header.scss */
+/* line 35, ../sass/modules/_header.scss */
 .divider {
   width: 100% !important;
   padding-top: 3em;
@@ -445,7 +444,7 @@ h1.about {
   background: url(/images/stripe.jpg) repeat-x;
 }
 
-/* line 43, ../sass/modules/_header.scss */
+/* line 42, ../sass/modules/_header.scss */
 img.contact {
   margin-bottom: 15px;
   width: 6em;
@@ -453,7 +452,7 @@ img.contact {
   margin: 0;
 }
 
-/* line 50, ../sass/modules/_header.scss */
+/* line 49, ../sass/modules/_header.scss */
 .grid-3 {
   float: left;
   display: block;
@@ -465,26 +464,26 @@ img.contact {
   margin-right: 0;
 }
 
-/* line 55, ../sass/modules/_header.scss */
+/* line 54, ../sass/modules/_header.scss */
 h1 {
   font-size: 1.4em;
   padding: 15px 0;
 }
 
-/* line 61, ../sass/modules/_header.scss */
+/* line 60, ../sass/modules/_header.scss */
 ul {
   margin: 0 auto 2em auto;
   height: 100%;
   max-width: 22.875rem;
   overflow: hidden;
 }
-/* line 67, ../sass/modules/_header.scss */
+/* line 66, ../sass/modules/_header.scss */
 ul li {
   display: inline-block;
   margin: 0 2em;
 }
 
-/* line 75, ../sass/modules/_header.scss */
+/* line 74, ../sass/modules/_header.scss */
 ul.menu {
   margin: 0 auto 2em auto;
   height: 100%;
@@ -492,14 +491,14 @@ ul.menu {
   text-align: right;
   max-width: 100%;
 }
-/* line 81, ../sass/modules/_header.scss */
+/* line 80, ../sass/modules/_header.scss */
 ul.menu li {
   display: inline-block;
   margin: 15px 4em 0 0;
   font-size: 1.1em;
 }
 
-/* line 91, ../sass/modules/_header.scss */
+/* line 90, ../sass/modules/_header.scss */
 .logo {
   float: left;
   display: block;
@@ -515,17 +514,17 @@ ul.menu li {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 106, ../sass/modules/_header.scss */
-  header {
-    margin: 0;
+  /* line 108, ../sass/modules/_header.scss */
+  header h1 {
+    font-size: 1.167em;
   }
 
-  /* line 112, ../sass/modules/_header.scss */
+  /* line 115, ../sass/modules/_header.scss */
   h1.home {
     font-size: 2.4em;
   }
 
-  /* line 116, ../sass/modules/_header.scss */
+  /* line 119, ../sass/modules/_header.scss */
   a.logo {
     float: none;
     text-align: center;
@@ -534,17 +533,17 @@ ul.menu li {
     font-size: 1.3em;
   }
 
-  /* line 124, ../sass/modules/_header.scss */
+  /* line 127, ../sass/modules/_header.scss */
   ul.menu {
     margin: 1em 0;
     text-align: center;
   }
 
-  /* line 129, ../sass/modules/_header.scss */
+  /* line 132, ../sass/modules/_header.scss */
   ul {
     max-width: 16.875rem;
   }
-  /* line 132, ../sass/modules/_header.scss */
+  /* line 135, ../sass/modules/_header.scss */
   ul li {
     margin: 0 1em;
   }
@@ -802,17 +801,6 @@ a {
   padding: 0;
 }
 
-/* line 127, ../sass/base.scss */
-.post {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 82.94039%;
-}
-/* line 87, ../sass/neat/grid/_span-columns.scss */
-.post:last-child {
-  margin-right: 0;
-}
 /* line 130, ../sass/base.scss */
 .post h2 {
   font-size: 1.5em;
